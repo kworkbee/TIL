@@ -36,16 +36,12 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Github',
+        link: 'https://github.com/g1-tommy',
       },
       {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Résumé',
+        link: 'https://g1-tommy.github.io/resume'
       }
     ],
     sidebar: {
