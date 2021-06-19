@@ -1,7 +1,7 @@
 {
   "name": "tommy-til",
-  "version": "0.0.1",
-  "description": "Tommy&#39;s Today I Learned",
+  "version": "1.0",
+  "description": "Tommy's Today I Learned",
   "main": "index.js",
   "authors": {
     "name": "G1(Tommy)",
@@ -9,8 +9,8 @@
   },
   "repository": "TIL/tommy-til",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "license": "MIT",
   "devDependencies": {
