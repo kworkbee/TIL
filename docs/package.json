@@ -1,0 +1,19 @@
+{
+  "name": "tommy-til",
+  "version": "0.0.1",
+  "description": "Tommy&#39;s Today I Learned",
+  "main": "index.js",
+  "authors": {
+    "name": "G1(Tommy)",
+    "email": "g1.tommy.jeon@gmail.com"
+  },
+  "repository": "TIL/tommy-til",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
