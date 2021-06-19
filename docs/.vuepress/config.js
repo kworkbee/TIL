@@ -44,18 +44,14 @@ module.exports = {
         link: 'https://g1-tommy.github.io/resume'
       }
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-    }
+    sidebar: [
+      {
+        title: 'DevOps',
+        children: [
+          "DevOps/TIL-with-Github-Actions"
+        ]
+      }
+    ]
   },
 
   /**
