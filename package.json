@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src",
-    "deploy": "yarn build; mv src/.vuepress/dist/** docs/"
+    "deploy": "rm -rf docs; yarn build; mv src/.vuepress/dist/ docs/"
   },
   "license": "MIT",
   "devDependencies": {

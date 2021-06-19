@@ -4,7 +4,8 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'G1(Tommy)\'s TIL - Today I Learned',
+  base: '/TIL/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
