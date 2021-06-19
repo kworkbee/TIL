@@ -10,8 +10,7 @@
   "repository": "TIL/tommy-til",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src",
-    "deploy": "rm -rf docs; yarn build; mv src/.vuepress/dist/ docs/"
+    "build": "vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {
