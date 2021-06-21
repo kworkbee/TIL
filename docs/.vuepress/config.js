@@ -1,4 +1,5 @@
 const { description } = require('../../package')
+const { DevOps } = require('./const');
 
 module.exports = {
   /**
@@ -47,9 +48,7 @@ module.exports = {
     sidebar: [
       {
         title: 'DevOps',
-        children: [
-          "DevOps/TIL-with-Github-Actions"
-        ]
+        children: DevOps
       }
     ]
   },
