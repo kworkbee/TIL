@@ -14,7 +14,12 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.8.2",
+    "node-sass": "4.14.1",
+    "sass": "1.32.6",
+    "sass-loader": "8.0.2"
+  },
+  "dependencies": {
+    "@vue-a11y/dark-mode": "^1.1.1",
     "vuepress": "^1.5.3"
   }
 }
