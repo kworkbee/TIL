@@ -149,3 +149,42 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+html.dark-mode {
+  --background: #292a2d;
+  --background-secondary: #3b3d42;
+  --header: #252627;
+  --color: #a9a9b3;
+  --color-secondary: #73747b;
+  --border-color: #4a4b50;
+  --link-color: #3eaf7c;
+  background-color: var(--background);
+  color: var(--color);
+
+  & a, input, h1, h2, h3, h4, h5, h6, p, span, div, header, .navbar, .page, .sidebar, .links, .site-name {
+    background-color: var(--background);
+    color: var(--color);
+  }
+
+  & a:not(.sidebar-link):not(.nav-link) {
+    color: var(--link-color);
+  }
+
+  & .suggestions {
+    background-color: var(--background);
+    & li {
+      background-color: var(--background);
+      &.focused {
+        background-color: var(--background-secondary);
+        & a, span {
+          background-color: var(--background-secondary);
+        }
+      }
+      & a, span {
+        background-color: var(--background);
+      }
+    }
+  }
+}
+</style>

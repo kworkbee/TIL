@@ -4,6 +4,11 @@
  * https://v1.vuepress.vuejs.org/guide/basic-config.html#app-level-enhancements
  */
 
+import Vue from 'vue'
+import DarkMode from '@vue-a11y/dark-mode'
+
+Vue.use(DarkMode)
+
 export default ({
   Vue, // the version of Vue being used in the VuePress app
   options, // the options for the root Vue instance
