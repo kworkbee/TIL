@@ -12,3 +12,7 @@ exports.TDD = [
     "TDD/Overview",
     "TDD/JUnit"
 ]
+
+exports.CS = [
+    "CS/OOP"
+]

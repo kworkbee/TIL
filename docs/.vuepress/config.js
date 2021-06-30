@@ -1,5 +1,5 @@
 const { description } = require('../../package')
-const { Algorithm, DevOps, TDD } = require('./const');
+const { Algorithm, DevOps, TDD, CS } = require('./const');
 
 module.exports = {
   /**
@@ -60,6 +60,10 @@ module.exports = {
       }
     ],
     sidebar: [
+      {
+        title: 'CS',
+        children: CS
+      },
       {
         title: 'Algorithm',
         children: Algorithm
