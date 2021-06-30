@@ -9,5 +9,6 @@ exports.Algorithm = [
 ]
 
 exports.TDD = [
-    "TDD/Overview"
+    "TDD/Overview",
+    "TDD/JUnit"
 ]
