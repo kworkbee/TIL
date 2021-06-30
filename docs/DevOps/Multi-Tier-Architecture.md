@@ -34,13 +34,13 @@ e.g. `DBMS` --> `MySQL`, `MongoDB`, etc,.
 
 ## 1-Tier
 
-![1-Tier](../images/Tier.001.jpeg)
+![1-Tier](../images/Tier/Tier.001.jpeg)
 
 하나의 물리적 서버 (컴퓨터)에 3가지 다른 기능을 함께 구현, 물리적 장비 변경 시 모든 구성의 변경 필요
 
 ## 2-Tier
 
-![2-Tier](../images/Tier.002.jpeg)
+![2-Tier](../images/Tier/Tier.002.jpeg)
 
 `Client Tier`와 `Data Tier`의 물리적 구분 --> 각 계층에서의 변경은 서로에 영향을 받지 않음
 
@@ -48,13 +48,13 @@ e.g. `DBMS` --> `MySQL`, `MongoDB`, etc,.
 
 ## 3-Tier (1)
 
-![3-Tier](../images/Tier.003.jpeg)
+![3-Tier](../images/Tier/Tier.003.jpeg)
 
 각 계층 모두 물리적인 구분으로 구성 --> 각 계층에서의 변화는 서로 영향 없이 독립적으로 운영
 
 ## 3-Tier (2)
 
-![3-Tier (2)](../images/Tier.004.jpeg)
+![3-Tier (2)](../images/Tier/Tier.004.jpeg)
 
 `Development` / `Staging` / `Production` 형태로, `Development` 단계에서는 서비스 / 기능 구현 후 `Staging` 단계에서 자체 테스트를 거친다. 이상이 없는 경우 `Production` 단계로 Migration 하여 서비스하는 형태 --> 각 단계는 `백업`하는 구성일 뿐 아니라 각 기능 혹은 서비스에 대한 테스트를 거치고 업데이트 하는 `버전 관리 구성`도 가능
 
