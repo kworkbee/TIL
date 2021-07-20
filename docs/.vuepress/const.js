@@ -14,5 +14,9 @@ exports.TDD = [
 ]
 
 exports.CS = [
-    "CS/OOP"
+    "CS/OOP",
+]
+
+exports.Database = [
+    "Database/SQL"
 ]
