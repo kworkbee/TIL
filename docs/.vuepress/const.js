@@ -15,7 +15,8 @@ exports.TDD = [
 
 exports.CS = [
     "CS/OOP",
-    "CS/Functional-Programming"
+    "CS/Functional-Programming",
+    "CS/Design-Pattern/Singleton"
 ]
 
 exports.Backend = [
