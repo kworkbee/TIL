@@ -19,12 +19,7 @@ exports.CS = [
 ]
 
 exports.Backend = [
-    {
-        title: 'Spring',
-        children: [
-            "Spring/Filter-Interceptor"
-        ]
-    }
+    "Backend/Spring/Filter-Interceptor"
 ]
 
 exports.Database = [
