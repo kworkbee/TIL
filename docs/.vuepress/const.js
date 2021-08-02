@@ -5,6 +5,7 @@ exports.DevOps = [
 ]
 
 exports.Algorithm = [
+    "Algorithm/Graph",
     "Algorithm/HashTable-Collision-Solving"
 ]
 
