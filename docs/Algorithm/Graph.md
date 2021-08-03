@@ -22,6 +22,7 @@ Posted at 21-07-16
 > ### Backtracking
 > - 완전 탐색으로 여러 개의 솔루션을 가진 문제에서, 모든 솔루션을 탐색하는 전략
 >   - 어떤 노드의 `유망함(Promising)`을 점검해 그렇지 않으면 배제(가지치기 - `Pruning`)시킨다. 해당 노드의 부모 노드로 되돌아가 다른 자식 노드를 검색한다.
+>   - 가능성이 없어보이는 후보를 과감히 포기해 모든 경우를 탐색하는 브루트포스와는 차이
 >   - 제약 충족 문제 (CSP)를 풀이하는데 필수적인 알고리즘
 
 ### Time Complexity
@@ -69,9 +70,13 @@ def iterative_dfs(startV):
 - `큐`를 활용해 구현
 - `최단거리`를 찾는 `Dijkstra` 알고리즘 등에 사용
 
+![BFS](../images/BFS/BFS.001.jpeg)
+
 ### Time Complexity
 
-- `O(|V| + |E|)`
+- `Adjacency Matrix` 사용하는 경우 `O(V^2)`
+- `Adjacency List` 사용하는 경우 노드 수 `V` + 간선 수 `E` 만큼의 시간복잡도 소요 `O(|V| + |E|)`
+
 
 ### Implementation
 
@@ -102,6 +107,6 @@ def iterative_dfs(startV):
 
 > 위상 정렬
 
-DFS를 사용해 풀 수 있는 방식으로, **의존성 있는 작업이 주어질 때, 어떤 순서로 수행해야 하는지 계산하는 방법**
+- DFS를 사용해 풀 수 있는 방식으로, **의존성 있는 작업이 주어질 때, 어떤 순서로 수행해야 하는지 계산하는 방법**
 
 ![Topological Sort](../images/DFS/DFS.002.jpeg)
