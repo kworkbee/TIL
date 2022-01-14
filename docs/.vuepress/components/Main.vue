@@ -7,13 +7,13 @@
         <div class="name">Tommy's TIL</div>
         <ul>
           <li>
-            <a href="https://g1-tommy.github.io/">Blog</a>
+            <a href="https://kworkbee.github.io/">Blog</a>
           </li>
           <li>
-            <a href="https://github.com/g1-tommy">GitHub</a>
+            <a href="https://github.com/kworkbee">GitHub</a>
           </li>
           <li>
-            <a href="https://g1-tommy.github.io/resume">Résumé</a>
+            <a href="https://kworkbee.github.io/resume">Résumé</a>
           </li>
         </ul>
       </div>

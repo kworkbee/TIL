@@ -86,7 +86,7 @@ public void testCertainFunction() {
 - `allOf`
     - 내부에 선언된 모든 matcher가 정상일 경우 통과
     ```java
-    assertThat("G1-Tommy", allOf(startsWith("G1"), endsWith("Tommy")));
+    assertThat("kworkbee", allOf(startsWith("G1"), endsWith("Tommy")));
     ```
 
 - `anyOf`

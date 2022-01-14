@@ -52,11 +52,11 @@ module.exports = {
     nav: [
       {
         text: 'Github',
-        link: 'https://github.com/g1-tommy',
+        link: 'https://github.com/kworkbee',
       },
       {
         text: 'Résumé',
-        link: 'https://g1-tommy.github.io/resume'
+        link: 'https://kworkbee.github.io/resume'
       }
     ],
     sidebar: [
