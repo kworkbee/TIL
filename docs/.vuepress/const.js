@@ -28,3 +28,7 @@ exports.Backend = [
 exports.Database = [
     "Database/SQL"
 ]
+
+exports.Git = [
+    "Git/Major-Commands"
+]
