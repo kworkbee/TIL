@@ -54,7 +54,12 @@ html, body {
   font-size: 16px;
 }
 
-.sidebar-heading > span:nth-of-type(1), .site-name, h1 {
+.sidebar-heading > span:nth-of-type(1), .site-name {
+  font-family: "11STREETGothic";
+  font-weight: 700;
+}
+
+h1 {
   font-family: "11STREETGothic";
   font-weight: 700;
   font-size: 4rem;
