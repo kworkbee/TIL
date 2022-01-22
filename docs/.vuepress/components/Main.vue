@@ -25,6 +25,8 @@
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
 @font-face {
     font-family: '11STREETGothic';
     src: url('../fonts/11STREET_Gothic_regular.otf') format('opentype');
@@ -47,16 +49,17 @@
 }
 
 html, body {
-  font-family: "11STREETGothic";
+  font-family: "Noto Sans KR", "11STREETGothic", sans-serif;
   font-style: 400;
+  font-size: 16px;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .name {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 ul {
@@ -66,17 +69,17 @@ ul {
 
 @media (max-width: 550px) {
   h1 {
-    font-size: 4.4rem;
+    font-size: 3.5rem;
   }
 
   .name {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 }
 
 @media (max-width: 430px) {
   h1 {
-    font-size: 3.4rem;
+    font-size: 2.6rem;
   }
 }
 </style>
