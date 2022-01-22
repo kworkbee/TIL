@@ -11,7 +11,8 @@ exports.Algorithm = [
 
 exports.TDD = [
     "TDD/Overview",
-    "TDD/JUnit"
+    "TDD/JUnit",
+    "TDD/JUnit-Assertions-and-Assumptions"
 ]
 
 exports.CS = [
