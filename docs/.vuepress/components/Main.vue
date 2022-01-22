@@ -54,8 +54,20 @@ html, body {
   font-size: 16px;
 }
 
-h1 {
+.sidebar-heading > span:nth-of-type(1), .site-name, h1 {
+  font-family: "11STREETGothic";
+  font-weight: 700;
   font-size: 4rem;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "11STREETGothic";
+  font-weight: 400;
+}
+
+.sidebar-links > li > a {
+  font-family: "11STREETGothic";
+  font-weight: 300;
 }
 
 .name {
