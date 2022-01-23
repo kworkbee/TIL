@@ -4,7 +4,6 @@
       <h1>Today I Learned</h1>
 
       <div class="content">
-        <div class="name">Tommy's TIL</div>
         <ul>
           <li>
             <a href="https://kworkbee.github.io/">Blog</a>
@@ -24,7 +23,7 @@
 <script>
 </script>
 
-<style>
+<style lang="css">
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 @font-face {

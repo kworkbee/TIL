@@ -150,7 +150,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="css">
 html.dark-mode {
   --background: #292a2d;
   --background-secondary: #3b3d42;
@@ -161,30 +161,27 @@ html.dark-mode {
   --link-color: #3eaf7c;
   background-color: var(--background);
   color: var(--color);
-
-  & a, input, h1, h2, h3, h4, h5, h6, p, span, div, header, .navbar, .page, .sidebar, .links, .site-name {
-    background-color: var(--background);
-    color: var(--color);
-  }
-
-  & a:not(.sidebar-link):not(.nav-link) {
-    color: var(--link-color);
-  }
-
-  & .suggestions {
-    background-color: var(--background);
-    & li {
-      background-color: var(--background);
-      &.focused {
-        background-color: var(--background-secondary);
-        & a, span {
-          background-color: var(--background-secondary);
-        }
-      }
-      & a, span {
-        background-color: var(--background);
-      }
-    }
-  }
+}
+html.dark-mode a, html.dark-mode input, html.dark-mode h1, html.dark-mode h2, html.dark-mode h3, html.dark-mode h4, html.dark-mode h5, html.dark-mode h6, html.dark-mode p, html.dark-mode span, html.dark-mode div, html.dark-mode header, html.dark-mode .navbar, html.dark-mode .page, html.dark-mode .sidebar, html.dark-mode .links, html.dark-mode .site-name {
+  background-color: var(--background);
+  color: var(--color);
+}
+html.dark-mode a:not(.sidebar-link):not(.nav-link) {
+  color: var(--link-color);
+}
+html.dark-mode .suggestions {
+  background-color: var(--background);
+}
+html.dark-mode .suggestions li {
+  background-color: var(--background);
+}
+html.dark-mode .suggestions li.focused {
+  background-color: var(--background-secondary);
+}
+html.dark-mode .suggestions li.focused a, html.dark-mode .suggestions li.focused span {
+  background-color: var(--background-secondary);
+}
+html.dark-mode .suggestions li a, html.dark-mode .suggestions li span {
+  background-color: var(--background);
 }
 </style>
