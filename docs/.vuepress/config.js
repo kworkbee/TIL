@@ -76,8 +76,12 @@ module.exports = {
         link: 'https://github.com/kworkbee',
       },
       {
-        text: 'Résumé',
-        link: 'https://kworkbee.github.io/resume'
+        text: 'Blog',
+        link: 'https://about.g1tommy.me/'
+      },
+      {
+        text: 'Profile',
+        link: 'https://about.g1tommy.me/resume'
       }
     ],
     sidebar: [{
