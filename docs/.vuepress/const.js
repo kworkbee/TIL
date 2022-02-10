@@ -23,7 +23,8 @@ exports.CS = [
 ]
 
 exports.Backend = [
-    "Backend/Spring/Filter-Interceptor"
+    "Backend/Spring/Bean",
+    "Backend/Spring/Filter-Interceptor",
 ]
 
 exports.Database = [
