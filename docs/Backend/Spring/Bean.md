@@ -4,7 +4,7 @@ Posted at 2022-02-10
 
 ---
 
-::: tip
+::: tip Definition
 스프링 프레임워크가 관리하는 인스턴스
 :::
 
