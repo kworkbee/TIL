@@ -1,10 +1,10 @@
-# Spring Bean
+# [Spring] Bean
 
 Posted at 2022-02-10
 
 ---
 
-::: success
+::: tip
 스프링 프레임워크가 관리하는 인스턴스
 :::
 
