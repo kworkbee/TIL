@@ -6,6 +6,7 @@ const {
   DevOps,
   TDD,
   CS,
+  Java,
   Database,
   Backend,
   Git,
@@ -88,6 +89,10 @@ module.exports = {
     sidebar: [{
         title: 'CS',
         children: CS
+      },
+      {
+        title: 'Java',
+        children: Java
       },
       {
         title: 'Algorithm',

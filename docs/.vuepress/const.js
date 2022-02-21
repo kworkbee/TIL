@@ -22,6 +22,10 @@ exports.CS = [
     "CS/Design-Pattern/Adapter",
 ]
 
+exports.Java = [
+    "Java/Arrays-asList-List-of",
+]
+
 exports.Backend = [
     "Backend/Spring/Bean",
     "Backend/Spring/Filter-Interceptor",
