@@ -11,4 +11,6 @@ dist
 config.local.js
 basement_dist
 
+docs/.vuepress/.temp
+
 image_keynotes/
