@@ -34,3 +34,7 @@ exports.Database = [
 exports.Git = [
     "Git/Major-Commands"
 ]
+
+exports.Refactoring = [
+    "Refactoring/Law-of-Demeter"
+]

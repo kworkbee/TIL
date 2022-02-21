@@ -8,7 +8,8 @@ const {
   CS,
   Database,
   Backend,
-  Git
+  Git,
+  Refactoring,
 } = require('./const');
 
 module.exports = {
@@ -111,7 +112,11 @@ module.exports = {
       {
         title: 'Git',
         children: Git
-      }
+      },
+      {
+        title: 'Refactoring',
+        children: Refactoring
+      },
     ]
   },
 
