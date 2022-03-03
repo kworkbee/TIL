@@ -2,6 +2,7 @@ exports.DevOps = [
     "DevOps/TIL-with-Github-Actions",
     "DevOps/CI-CD",
     "DevOps/Multi-Tier-Architecture",
+    "DevOps/Deployment-History",
 ]
 
 exports.Algorithm = [
