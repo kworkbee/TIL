@@ -3,6 +3,7 @@ exports.DevOps = [
     "DevOps/CI-CD",
     "DevOps/Multi-Tier-Architecture",
     "DevOps/Deployment-History",
+    "DevOps/Deployment-Strategies",
     "DevOps/Docker",
 ]
 
