@@ -5,6 +5,7 @@ exports.DevOps = [
     "DevOps/Deployment-History",
     "DevOps/Deployment-Strategies",
     "DevOps/Docker",
+    "DevOps/Docker-Network-Structure",
 ]
 
 exports.Algorithm = [
