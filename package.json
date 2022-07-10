@@ -14,10 +14,20 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@vue-a11y/dark-mode": "^1.1.1"
-  },
-  "dependencies": {
-    "@vuepress/core": "^1.9.7",
-    "vuepress": "^1.9.7"
+    "@vuepress/plugin-google-analytics": "^2.0.0-beta.43",
+    "@vuepress/plugin-palette": "^2.0.0-beta.48",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.48",
+    "@vuepress/theme-default": "^2.0.0-beta.43",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.1.1",
+    "postcss": "^7.0.39",
+    "postcss-loader": "^7.0.0",
+    "sass-loader": "^13.0.0",
+    "vuepress": "^v2.0.0-beta.48"
   }
 }

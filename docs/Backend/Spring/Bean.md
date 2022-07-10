@@ -1,7 +1,5 @@
 # [Spring] Bean
 
-Posted at 2022-02-10
-
 ---
 
 ::: tip Definition

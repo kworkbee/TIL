@@ -1,3 +1,7 @@
+const { googleAnalyticsPlugin } = require("@vuepress/plugin-google-analytics");
+const { defaultTheme } = require("@vuepress/theme-default");
+const { palettePlugin } = require('@vuepress/plugin-palette');
+
 const {
   description
 } = require('../../package')
@@ -14,21 +18,9 @@ const {
 } = require('./const');
 
 module.exports = {
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
-   */
   title: 'Today I Learned',
   base: '/TIL/',
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
-  description: description,
-
-  /**
-   * Extra tags to be injected to the page HTML `<head>`
-   *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
-   */
+  description,
   head: [
     ['meta', {
       name: 'theme-color',
@@ -42,42 +34,14 @@ module.exports = {
       name: 'apple-mobile-web-app-status-bar-style',
       content: 'black'
     }],
-    ['meta', {
-      name: 'og:image',
-      content: 'https://h4dvprmht2.execute-api.ap-northeast-2.amazonaws.com/automated-og-image?text=Today%20I%20Learned'
-    }],
-    [
-      'script',
-      {
-        async: true,
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-8Y5NYKR2S4',
-      },
-    ],
-    [
-      'script',
-      {},
-      [
-        "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-8Y5NYKR2S4');",
-      ],
-    ],
   ],
-
-  /**
-   * Theme configuration, here is the default theme configuration for VuePress.
-   *
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
-   */
-  themeConfig: {
-    repo: '',
+  theme: defaultTheme({
+    repo: 'kworkbee/TIL',
     editLinks: false,
-    docsDir: '',
-    editLinkText: '',
-    lastUpdated: false,
-    nav: [{
-        text: 'Github',
-        link: 'https://github.com/kworkbee',
-      },
-      {
+    docsDir: 'docs',
+    editLinkText: 'Edit',
+    lastUpdated: true,
+    navbar: [{
         text: 'Blog',
         link: 'https://about.g1tommy.me/'
       },
@@ -87,49 +51,49 @@ module.exports = {
       }
     ],
     sidebar: [{
-        title: 'CS',
+        text: 'CS',
         children: CS
       },
       {
-        title: 'Java',
+        text: 'Java',
         children: Java
       },
       {
-        title: 'Algorithm',
+        text: 'Algorithm',
         children: Algorithm
       },
       {
-        title: 'Backend',
+        text: 'Backend',
         children: Backend
       },
       {
-        title: 'DevOps',
+        text: 'DevOps',
         children: DevOps
       },
       {
-        title: 'TDD',
+        text: 'TDD',
         children: TDD
       },
       {
-        title: 'Database',
+        text: 'Database',
         children: Database
       },
       {
-        title: 'Git',
+        text: 'Git',
         children: Git
       },
       {
-        title: 'Refactoring',
+        text: 'Refactoring',
         children: Refactoring
       },
     ]
-  },
-
-  /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-   */
+  }),
   plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-  ]
+    googleAnalyticsPlugin({
+        id: 'G-8Y5NYKR2S4',
+    }),
+    palettePlugin({
+      preset: 'sass'
+    })
+  ],
 }

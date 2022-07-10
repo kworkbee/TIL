@@ -1,7 +1,5 @@
 # Arrays.asList vs. List.of
 
-Posted at 2022-02-21
-
 ---
 
 ## 차이점

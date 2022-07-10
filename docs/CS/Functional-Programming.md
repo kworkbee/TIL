@@ -1,6 +1,6 @@
 # 함수형 프로그래밍
 
-Posted at 21-07-20
+---
 
 ## Overview
 

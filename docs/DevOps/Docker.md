@@ -1,7 +1,5 @@
 # Docker 
 
-Posted at 2022-03-03
-
 ---
 
 ![Docker](../images/DevOps/docker.png)

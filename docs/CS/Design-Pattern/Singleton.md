@@ -1,7 +1,5 @@
 # [Design Pattern] Singleton
 
-Posted at 21-07-22
-
 ---
 
 ## What is Singleton?

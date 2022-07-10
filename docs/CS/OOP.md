@@ -1,6 +1,6 @@
 # OOP
 
-Posted at 2021-06-30
+---
 
 > Object-oriented Programming
 

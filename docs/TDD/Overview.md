@@ -1,6 +1,6 @@
 # TDD Overview
 
-Posted at 2021-06-30
+---
 
 > Test-Driven Development
 > 테스트가 개발을 이끌어나간다.

@@ -1,6 +1,6 @@
 # Multi-Tier Architecture
 
-Posted at 2021-06-29
+---
 
 > 플랫폼을 다수 계층으로 나누어 별도의 물리적(Physical) / 논리적(Logical) 장치에 구축, 운영하는 형태
 

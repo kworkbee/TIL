@@ -1,7 +1,5 @@
 # [Design Pattern] Adapter
 
-Posted at 21-07-22
-
 ---
 
 - 인터페이스 호환성 문제로 인해 같이 쓸 수 없는 클래스를 연결하는 방법을 담는 패턴.

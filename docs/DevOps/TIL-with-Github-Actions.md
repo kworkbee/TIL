@@ -1,6 +1,6 @@
 # TIL with Github Actions
 
-Posted at 21-06-20
+---
 
 Vuepress로 만드는 TIL 사이트. 사이트 배포는 `Github Pages`에 한다.
 

@@ -1,7 +1,5 @@
 # Law of Demeter
 
-Posted at 2022-02-21
-
 ---
 
 ::: tip Overview

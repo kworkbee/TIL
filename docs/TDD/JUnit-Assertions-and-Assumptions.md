@@ -1,7 +1,5 @@
 # JUnit5 Assertions & Assumptions
 
-Posted at 2022-01-22
-
 ---
 
 ## Assertions

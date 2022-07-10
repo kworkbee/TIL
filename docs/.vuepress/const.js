@@ -1,48 +1,49 @@
 exports.DevOps = [
-    "DevOps/TIL-with-Github-Actions",
-    "DevOps/CI-CD",
-    "DevOps/Multi-Tier-Architecture",
-    "DevOps/Deployment-History",
-    "DevOps/Deployment-Strategies",
-    "DevOps/Docker",
-    "DevOps/Docker-Network-Structure",
+    "/DevOps/TIL-with-Github-Actions.md",
+    "/DevOps/CI-CD.md",
+    "/DevOps/Multi-Tier-Architecture.md",
+    "/DevOps/Deployment-History.md",
+    "/DevOps/Deployment-Strategies.md",
+    "/DevOps/Docker.md",
+    "/DevOps/Docker-Network-Structure.md",
 ]
 
 exports.Algorithm = [
-    "Algorithm/Graph",
-    "Algorithm/HashTable-Collision-Solving"
+    "/Algorithm/Graph.md",
+    "/Algorithm/HashTable-Collision-Solving.md",
 ]
 
 exports.TDD = [
-    "TDD/Overview",
-    "TDD/JUnit",
-    "TDD/JUnit-Assertions-and-Assumptions"
+    "/TDD/Overview.md",
+    "/TDD/JUnit.md",
+    "/TDD/JUnit-Assertions-and-Assumptions.md",
 ]
 
 exports.CS = [
-    "CS/OOP",
-    "CS/Functional-Programming",
-    "CS/Design-Pattern/Singleton",
-    "CS/Design-Pattern/Adapter",
+    "/CS/OOP.md",
+    "/CS/Functional-Programming.md",
+    "/CS/Design-Pattern/Singleton.md",
+    "/CS/Design-Pattern/Adapter.md",
 ]
 
 exports.Java = [
-    "Java/Arrays-asList-List-of",
+    "/Java/Arrays-asList-List-of.md",
+    "/Java/JVM-Java-Application-Performance-And-Memory-Management.md",
 ]
 
 exports.Backend = [
-    "Backend/Spring/Bean",
-    "Backend/Spring/Filter-Interceptor",
+    "/Backend/Spring/Bean.md",
+    "/Backend/Spring/Filter-Interceptor.md",
 ]
 
 exports.Database = [
-    "Database/SQL"
+    "/Database/SQL.md",
 ]
 
 exports.Git = [
-    "Git/Major-Commands"
+    "/Git/Major-Commands.md",
 ]
 
 exports.Refactoring = [
-    "Refactoring/Law-of-Demeter"
+    "/Refactoring/Law-of-Demeter.md",
 ]

@@ -1,5 +1,7 @@
 # Git Major Commands
 
+---
+
 ## commit
 
 ```cli

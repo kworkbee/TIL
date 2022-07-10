@@ -1,5 +1,7 @@
 # HashTable Collision 해결
 
+---
+
 ## Chaining
 
 > 개방 해싱, One of the Open Hashing methods
