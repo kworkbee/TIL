@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"Today I Learned","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Contact me through","slug":"contact-me-through","children":[]}],"git":{"updatedTime":1657432516000,"contributors":[{"name":"G1.Jeon","email":"g1.jeon@kakao.com","commits":1}]},"filePathRelative":"index.md"}');export{e as data};
