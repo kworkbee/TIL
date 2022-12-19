@@ -32,6 +32,7 @@ exports.Java = [
     "/Java/Arrays-asList-List-of.md",
     "/Java/JVM-Java-Application-Performance-And-Memory-Management.md",
     "/Java/equals-hashcode.md",
+    "/Java/guaranteeing-concurrency-in-multi-threaded-environment.md",
 ]
 
 exports.Backend = [
