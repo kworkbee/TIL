@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-49bbc5f2","path":"/Git/Major-Commands.html","title":"Git Major Commands","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"commit","slug":"commit","children":[{"level":3,"title":"commit --amend","slug":"commit-amend","children":[]}]}],"git":{},"filePathRelative":"Git/Major-Commands.md"}');export{t as data};

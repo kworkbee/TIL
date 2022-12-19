@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-ca29181c","path":"/CS/Design-Pattern/Adapter.html","title":"[Design Pattern] Adapter","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Example","slug":"example","children":[]}],"git":{},"filePathRelative":"CS/Design-Pattern/Adapter.md"}');export{e as data};
